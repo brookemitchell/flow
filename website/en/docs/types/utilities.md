@@ -237,10 +237,10 @@ type Person = {
   parent: Person
 };
 
-const newName: $PropertyType<Person, 'name'> = 'Michael Jackson';
+const newName: $PropertyType<Person, 'name'> = 'Toni Braxton';
 const newAge: $PropertyType<Person, 'age'> = 50;
-const newParent: $PropertyType<Person, 'parent'> = 'Joe Jackson';
-```
+const newParent: $PropertyType<Person, 'parent'> = 'Evelyn Braxton';
+```(
 
 This can be especially useful for referring to the type of React props, or, even the entire `props` type itself.
 
